@@ -57,3 +57,17 @@ while (n>=1){
     valor++;
 }
 console.log(print.join(" "));
+
+console.log("Parte 4");
+
+let data = 4; 
+let number = 1;
+let resultado = 0;
+
+
+while (data>=1) {
+    resultado += number;
+    number++;
+    data--;
+}
+console.log(resultado);
